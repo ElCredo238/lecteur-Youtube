@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E23D64942106226400B7BEC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D64932106226400B7BEC1 /* AppDelegate.swift */; };
-		E23D64962106226400B7BEC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D64952106226400B7BEC1 /* ViewController.swift */; };
 		E23D64992106226400B7BEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23D64972106226400B7BEC1 /* Main.storyboard */; };
 		E23D649B2106226500B7BEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23D649A2106226500B7BEC1 /* Assets.xcassets */; };
 		E23D649E2106226500B7BEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23D649C2106226500B7BEC1 /* LaunchScreen.storyboard */; };
+		E23D64A62106267F00B7BEC1 /* TableauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D64A52106267F00B7BEC1 /* TableauController.swift */; };
+		E23D64A8210628BA00B7BEC1 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23D64A7210628BA00B7BEC1 /* Chanson.swift */; };
+		E2CCEAF3210919D600D5D944 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CCEAF2210919D600D5D944 /* ChansonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E23D64902106226400B7BEC1 /* lecteur video.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecteur video.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23D64932106226400B7BEC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E23D64952106226400B7BEC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E23D64982106226400B7BEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E23D649A2106226500B7BEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E23D649D2106226500B7BEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23D649F2106226500B7BEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23D64A52106267F00B7BEC1 /* TableauController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableauController.swift; sourceTree = "<group>"; };
+		E23D64A7210628BA00B7BEC1 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
+		E2CCEAF2210919D600D5D944 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E23D64932106226400B7BEC1 /* AppDelegate.swift */,
-				E23D64952106226400B7BEC1 /* ViewController.swift */,
+				E23D64A7210628BA00B7BEC1 /* Chanson.swift */,
+				E23D64A52106267F00B7BEC1 /* TableauController.swift */,
 				E23D64972106226400B7BEC1 /* Main.storyboard */,
 				E23D649A2106226500B7BEC1 /* Assets.xcassets */,
 				E23D649C2106226500B7BEC1 /* LaunchScreen.storyboard */,
 				E23D649F2106226500B7BEC1 /* Info.plist */,
+				E2CCEAF2210919D600D5D944 /* ChansonCell.swift */,
 			);
 			path = "lecteur video";
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E23D64962106226400B7BEC1 /* ViewController.swift in Sources */,
+				E23D64A62106267F00B7BEC1 /* TableauController.swift in Sources */,
 				E23D64942106226400B7BEC1 /* AppDelegate.swift in Sources */,
+				E2CCEAF3210919D600D5D944 /* ChansonCell.swift in Sources */,
+				E23D64A8210628BA00B7BEC1 /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
